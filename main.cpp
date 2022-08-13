@@ -3,7 +3,7 @@
 using namespace std;
 
 double dayPrice(int days){
-    int dP = 27; // 4 times 3euros for meals + 40 for camping
+    int dP = 52; // 4 times 3euros for meals + 40 for camping
     int full = (days*dP)+200; // + 200 for material
     return full/days;
 }
