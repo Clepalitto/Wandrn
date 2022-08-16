@@ -21,16 +21,16 @@ int main()
     cout << "Wandrn - Your trek planner !" << endl;
     cout << "" << endl;
 
-    cout << "Trek level (how many hours do you walk a day)" << endl;
+    cout << "Trek level (how many hours do you walk a day) " ;
     double level;
     cin >> level;
 
 
     double d;
-    cout << "How long is your trip ? (in km) (and think of the way back)" ;
+    cout << "How long is your trip ? (in km) (and think of the way back) " ;
     cin>>d;
     double speed;
-    cout << "How fast are you ? (in km/h)" ;
+    cout << "How fast are you ? (in km/h) " ;
     cin>>speed;
     double time = d/speed;
     cout << "" << endl;
